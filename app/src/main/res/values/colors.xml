@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#1DE9B6</color>
+    <color name="study_categ_color">#B2DFDB</color>
+    <color name="work_categ_color">#80CBC4</color>
+    <color name="exercise_categ_color">#4DB6AC</color>
+    <color name="sleep_categ_color">#009688</color>
+    <color name="grey_color">#BDBDBD</color>
+    <color name="light_grey">#90A4AE</color>
+    <color name="welcome_screen_bkgrd">#A7FFEB</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

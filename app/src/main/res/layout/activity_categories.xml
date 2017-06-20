@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_categories"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.bwm.categories">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/light_grey">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:text="@string/categories_desc" />
+
+            <TextView
+                android:id="@+id/study_category"
+                style="@style/category_style"
+                android:layout_width="match_parent"
+                android:background="@color/study_categ_color"
+                android:text="@string/study_category" />
+
+            <TextView
+                android:id="@+id/work_category"
+                style="@style/category_style"
+                android:layout_width="match_parent"
+                android:background="@color/work_categ_color"
+                android:text="@string/work_category" />
+
+            <TextView
+                android:id="@+id/exercise_category"
+                style="@style/category_style"
+                android:layout_width="match_parent"
+                android:background="@color/exercise_categ_color"
+                android:text="@string/exercise_category" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        style="@style/category_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_color"
+        android:drawableLeft="@drawable/ic_control_point_black_24dp"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:text="@string/add_new_category"
+        android:textAllCaps="false"
+        android:textStyle="italic|bold" />
+</RelativeLayout>

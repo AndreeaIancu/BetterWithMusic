@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BWM</string>
+    <string name="welcome_screen_description">This is the welcome screen of the Better With Music
+        app. \nThe user is presented with a small description of the app and invited to choose
+        between the categories of music available by tapping the "Pick and activity!" button
+    </string>
+    <string name="welcome_scr_button">Pick \nan \nactivity!</string>
+    <string name="BMW_description">Better With Music \n</string>
+    <string name="BWM_philosophy">Yes! Scientific studies have shown that performance in any field
+        can be improved when you listen to music.\n \nBut not just any music. \n \nThis app provides
+        you with just the music you need. Just pick an activity and enjoy the benefits of MUSIC!
+    </string>
+    <string name="study_category">Study</string>
+    <string name="categories_label">Activities</string>
+    <string name="work_category">Work</string>
+    <string name="exercise_category">Exercise</string>
+    <string name="relax_category">Relax</string>
+    <string name="sleep_category">sleep</string>
+    <string name="now_playing_label">Now playing</string>
+    <string name="study_categ_desc">This screen shows the songs available to aid the study activity.
+        The user should be able to scroll through them or search for a specific song and pick one
+        to play. He should also be able to download / buy new songs from the BWM library</string>
+    <string name="work_categ_desc">This screen shows the songs available to aid the work activity.
+        The user should be able to scroll through them or search for a specific song and pick one
+        to play. He should also be able to download / buy new songs from the BWM library</string>
+    <string name="exercise_categ_desc">This screen shows the songs available to aid the exercise activity.
+        The user should be able to scroll through them or search for a specific song and pick one
+        to play. He should also be able to download / buy new songs from the BWM library</string>
+    <string name="now_playing_desc">This screen should show the name of the song playing, the time
+        progress bar of the specific song and buttons to allow stopping, playing, skipping within
+        the song and moving to the next song. The END SESSION button should take the user to the
+        activity categories screen in order to pick another type of activity</string>
+    <string name="name_of_song">Name of song</string>
+    <string name="categories_desc">This screen shows the type of activities the user can choose
+        to improve with music. The user should be able to add his own custom category and choose
+        his own songs either from phone library or to buy online from a bwm specific website </string>
+    <string name="add_new_category">Add new category</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bwm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".categories"
+            android:label="@string/categories_label" />
+        <activity android:name=".study"
+            android:label="@string/study_category"/>
+        <activity android:name=".work"
+            android:label="@string/work_category"/>
+        <activity android:name=".exercise"
+            android:label="@string/exercise_category"/>
+        <activity android:name=".now_playing"
+            android:label="@string/now_playing_label"></activity>
+    </application>
+
+</manifest>

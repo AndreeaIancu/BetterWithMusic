@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_work"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.bwm.work">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey">
+
+        <LinearLayout
+            android:id="@+id/work_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:text="@string/work_categ_desc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/work_activity_study_menu"
+                    style="@style/horizontal_menu"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/study_categ_color"
+                    android:padding="4dp"
+                    android:text="Study" />
+
+                <TextView
+                    style="@style/horizontal_menu"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@color/work_categ_color"
+                    android:drawableRight="@drawable/ic_queue_music_black_24dp"
+                    android:drawableTint="@color/white"
+                    android:text="Work"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/work_activity_exercise_menu"
+                    style="@style/horizontal_menu"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/exercise_categ_color"
+                    android:padding="4dp"
+                    android:text="Exercise" />
+
+                <TextView
+                    android:id="@+id/work_activity_home_menu"
+                    style="@style/horizontal_menu"
+                    android:layout_width="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:drawableRight="@drawable/ic_home_black_24dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:padding="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_color"
+                android:paddingLeft="8dp"
+                android:paddingRight="10dp">
+
+                <View
+                    android:layout_width="@dimen/blank_view_width"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Search"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorAccent"
+                    android:hint="Type here"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/song_list_height"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:background="@color/light_grey">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:text=" " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/work_categ_color"
+                        android:padding="4dp"
+                        android:text="Work Song no.1"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:padding="4dp"
+                        android:text="3:41"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/play_work_song_1"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:drawableLeft="@drawable/ic_play_circle_outline_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:text=" " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:text=" " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/work_categ_color"
+                        android:padding="4dp"
+                        android:text="Work Song no.2"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:padding="4dp"
+                        android:text="3:56"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/play_work_song_2"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@color/work_categ_color"
+                        android:drawableLeft="@drawable/ic_play_circle_outline_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:text=" " />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/work_import_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grey_color"
+            android:padding="4dp"
+            android:layout_below="@id/work_linear_layout">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/work_categ_color"
+                android:drawableTint="@color/colorPrimary"
+                android:drawableTop="@drawable/ic_control_point_black_24dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Import from library"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/work_categ_color"
+                android:drawableTint="@color/colorPrimary"
+                android:drawableTop="@drawable/ic_shopping_cart_black_24dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Buy from BWM store"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
