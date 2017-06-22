@@ -20,10 +20,13 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/study_desc_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorAccent"
+                android:maxLines="5"
                 android:padding="8dp"
+                android:scrollbars="vertical"
                 android:text="@string/study_categ_desc" />
 
             <LinearLayout

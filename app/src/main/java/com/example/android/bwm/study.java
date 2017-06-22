@@ -1,8 +1,9 @@
 package com.example.android.bwm;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
@@ -12,6 +13,9 @@ public class study extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_study);
+
+        TextView studyDescTxtView = (TextView) findViewById(R.id.study_desc_text_view);
+        studyDescTxtView.setMovementMethod(new ScrollingMovementMethod());
 
         TextView workCategText = (TextView) findViewById(R.id.study_activity_work_menu);
         workCategText.setOnClickListener(new View.OnClickListener() {

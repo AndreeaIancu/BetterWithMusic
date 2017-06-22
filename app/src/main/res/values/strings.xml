@@ -19,13 +19,29 @@
     <string name="now_playing_label">Now playing</string>
     <string name="study_categ_desc">This screen shows the songs available to aid the study activity.
         The user should be able to scroll through them or search for a specific song and pick one
-        to play. He should also be able to download / buy new songs from the BWM library</string>
+        to play. He should also be able to download / buy new songs from the BWM library.
+        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        and, after selecting the desired songs,to the PayPal screen in order to input his
+        PayPal credentials. The user should be able to choose between a Single Payment or
+        Future Payments. When choosing Future Payments the user will input his credentials only once
+        and agree to all future payments while using the BMW music store.
+    </string>
     <string name="work_categ_desc">This screen shows the songs available to aid the work activity.
         The user should be able to scroll through them or search for a specific song and pick one
-        to play. He should also be able to download / buy new songs from the BWM library</string>
+        to play. He should also be able to download / buy new songs from the BWM library.
+        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        and, after selecting the desired songs,to the PayPal screen in order to input his
+        PayPal credentials. The user should be able to choose between a Single Payment or
+        Future Payments. When choosing Future Payments the user will input his credentials only once
+        and agree to all future payments while using the BMW music store.</string>
     <string name="exercise_categ_desc">This screen shows the songs available to aid the exercise activity.
         The user should be able to scroll through them or search for a specific song and pick one
-        to play. He should also be able to download / buy new songs from the BWM library</string>
+        to play. He should also be able to download / buy new songs from the BWM library.
+        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        and, after selecting the desired songs,to the PayPal screen in order to input his
+        PayPal credentials. The user should be able to choose between a Single Payment or
+        Future Payments. When choosing Future Payments the user will input his credentials only once
+        and agree to all future payments while using the BMW music store.</string>
     <string name="now_playing_desc">This screen should show the name of the song playing, the time
         progress bar of the specific song and buttons to allow stopping, playing, skipping within
         the song and moving to the next song. The END SESSION button should take the user to the
@@ -33,7 +49,8 @@
     <string name="name_of_song">Name of song</string>
     <string name="categories_desc">This screen shows the type of activities the user can choose
         to improve with music. The user should be able to add his own custom category and choose
-        his own songs either from phone library or to buy online from a bwm specific website </string>
+        his own songs either from existing songs already on the device or to buy online from a
+        bwm specific website.  </string>
     <string name="add_new_category">Add new category</string>
 
 </resources>
