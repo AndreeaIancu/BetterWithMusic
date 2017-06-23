@@ -70,6 +70,15 @@ public class study extends AppCompatActivity {
             }
         });
 
+        TextView studyBuyTextView = (TextView) findViewById(R.id.study_buy_text_view);
+        studyBuyTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent studyBuyIntent = new Intent(study.this, payment.class);
+                startActivity(studyBuyIntent);
+            }
+        });
+
 
     }
 }

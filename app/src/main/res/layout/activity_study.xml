@@ -315,6 +315,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/study_buy_text_view"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"

@@ -20,28 +20,28 @@
     <string name="study_categ_desc">This screen shows the songs available to aid the study activity.
         The user should be able to scroll through them or search for a specific song and pick one
         to play. He should also be able to download / buy new songs from the BWM library.
-        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        The payment should be processed via PayPal. The user will be taken to the BWM music store
         and, after selecting the desired songs,to the PayPal screen in order to input his
         PayPal credentials. The user should be able to choose between a Single Payment or
         Future Payments. When choosing Future Payments the user will input his credentials only once
-        and agree to all future payments while using the BMW music store.
+        and agree to all future payments while using the BWM music store.
     </string>
     <string name="work_categ_desc">This screen shows the songs available to aid the work activity.
         The user should be able to scroll through them or search for a specific song and pick one
         to play. He should also be able to download / buy new songs from the BWM library.
-        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        The payment should be processed via PayPal. The user will be taken to the BWM music store
         and, after selecting the desired songs,to the PayPal screen in order to input his
         PayPal credentials. The user should be able to choose between a Single Payment or
         Future Payments. When choosing Future Payments the user will input his credentials only once
-        and agree to all future payments while using the BMW music store.</string>
+        and agree to all future payments while using the BWM music store.</string>
     <string name="exercise_categ_desc">This screen shows the songs available to aid the exercise activity.
         The user should be able to scroll through them or search for a specific song and pick one
         to play. He should also be able to download / buy new songs from the BWM library.
-        The payment should be processed via PayPal. The user will be taken to the BMW music store
+        The payment should be processed via PayPal. The user will be taken to the BWM music store
         and, after selecting the desired songs,to the PayPal screen in order to input his
         PayPal credentials. The user should be able to choose between a Single Payment or
         Future Payments. When choosing Future Payments the user will input his credentials only once
-        and agree to all future payments while using the BMW music store.</string>
+        and agree to all future payments while using the BWM music store.</string>
     <string name="now_playing_desc">This screen should show the name of the song playing, the time
         progress bar of the specific song and buttons to allow stopping, playing, skipping within
         the song and moving to the next song. The END SESSION button should take the user to the
@@ -52,5 +52,15 @@
         his own songs either from existing songs already on the device or to buy online from a
         bwm specific website.  </string>
     <string name="add_new_category">Add new category</string>
-
+    <string name="payment">Payment</string>
+    <string name="payment_desc">This is the Payment Activity screen. This should appear after the
+        user has chosen the songs from the BMW store and proceeded to check-out.The user must
+        confirm their pruchase and agree to the Terms and Conditions of the store before pressing
+        the "Pay with PayPal" button. After pressing the button the user will be taken to the PayPal
+        screen in order to input his PayPal credentials. The user should be able to choose between
+        a Single Payment or Future Payments. When choosing Future Payments the user will input his
+        credentials only once and agree to all future payments while using the BWM music store.
+        </string>
+    <string name="order_confirmation_checkbox">I have reviewed my order and confirm this purchase</string>
+    <string name="terms_and_cond_agreement">I agree to the Terms and Conditions of the BWM store</string>
 </resources>

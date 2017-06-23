@@ -60,5 +60,14 @@ public class work extends AppCompatActivity {
                 startActivity(playTwoIntent);
             }
         });
+
+        TextView workBuyTextView = (TextView) findViewById(R.id.work_buy_text_view);
+        workBuyTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent workBuyIntent = new Intent(work.this, payment.class);
+                startActivity(workBuyIntent);
+            }
+        });
     }
 }

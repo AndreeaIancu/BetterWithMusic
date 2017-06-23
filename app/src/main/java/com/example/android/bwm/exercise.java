@@ -60,5 +60,14 @@ public class exercise extends AppCompatActivity {
                 startActivity(playTwoIntent);
             }
         });
+
+        TextView exerciseBuyTextView = (TextView) findViewById(R.id.exercise_buy_text_view);
+        exerciseBuyTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent exerciseBuyIntent = new Intent(exercise.this, payment.class);
+                startActivity(exerciseBuyIntent);
+            }
+        });
     }
 }
